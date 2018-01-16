@@ -3,15 +3,8 @@ html {
 }
 
 .banner-content {
-    background-image: linear-gradient(to top, rgba(73, 85, 98, 1) 100%, rgba(73, 85, 98, 1))
-}
-
-h1 {
-  color: #fff;
-}
-
-p {
-  color: #fff;
+  background-color: #495562;
+  color: #efefef;
 }
 
 .btn-ghost {
@@ -21,13 +14,14 @@ p {
 
 @media only screen and (min-width: 38em) {
 
-   .button {
+  .button {
     text-align: right;
   }
 
   .banner {
     position: relative;
   }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -38,8 +32,15 @@ p {
   }
 
   .banner-content {
+    background-color: transparent;
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-image: linear-gradient(to top, rgba(73, 85, 98, .9) 30%, rgba(73, 85, 98, .1))
+    background-image: linear-gradient(to top, rgba(73, 85, 98, .9) 20%, rgba(73, 85, 98, .1));
   }
+
+  .btn-ghost {
+    border-color: #efefef;
+  }
+
+}
